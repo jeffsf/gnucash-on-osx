@@ -28,7 +28,9 @@ setup_sdk("10.10", "10.10",["i386"])
 # Note that it is skip.append(), not skip.add()
 skip.append('openssl')
 
-moduleset = "http://github.com/jralls/gnucash-on-osx/raw/master/modulesets/gnucash.modules"    
+# moduleset = "http://github.com/jralls/gnucash-on-osx/raw/master/modulesets/gnucash.modules"
+
+moduleset = "/Users/gnucash-build/Documents/devel/gnucash-on-osx/modulesets/gnucash.modules"
 
 #If you wish to enable the mysql backend, uncomment the lines below.
 #MySQL requires CMake 2.6.0 or later to build, so the libmysql module
